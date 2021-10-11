@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+body {
+  font-family: 'Padauk', sans-serif;
+}
+.navbar {
+  font-size: 1.2rem !important;
+}
+#navbarNav ul li a:hover {
+  cursor: pointer !important;
+}
