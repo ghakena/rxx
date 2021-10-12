@@ -8,11 +8,55 @@ body {
 #navbarNav ul li a:hover {
   cursor: pointer !important;
 }
+/* mobile screen */
+@media (max-width: 599px) {
+  /* banner section. */
+  .banner {
+    background-image: linear-gradient(to top, rgba(245, 246, 252, 0.20), rgba(15, 6, 13, 0.85)),url("https://res.cloudinary.com/rokuirie/image/upload/v1634052147/rxx/banner-mobile_1_tognk3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    color: whitesmoke;
+  }
+  .banner-heading {
+    text-align: center;
+    padding: 8rem 4rem;
+  }
+  .banner-heading h1 {
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+  .banner-heading h3 {
+    font-weight: 580;
+    font-size: 1.25rem;
+  }
+  .contact-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  /* services offered. */
+  .services-small {
+    padding: 1rem;
+  }
+  .services-small .card {
+    margin-top: 1rem;
+  }
+  .services-small h1 {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .services.lg {
+    display: none;
+  }
 
+}
 /* tablet screen */
 @media only screen and (min-width: 600px) {
+  /* banner */
   .banner {
-    background-image: linear-gradient(to top, rgba(245, 246, 252, 0.20), rgba(15, 6, 13, 0.85)),url("https://res.cloudinary.com/rokuirie/image/upload/v1634049623/rxx/banner_rzgrjs.jpg");
+    background-image: linear-gradient(to top, rgba(245, 246, 252, 0.20), rgba(15, 6, 13, 0.85)),url("https://res.cloudinary.com/rokuirie/image/upload/v1634055651/rxx/banner-final_1_gchg2f.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
@@ -33,11 +77,27 @@ body {
     padding: 0.5rem 1rem;
     border-radius: 5px;
   }
+  /* services section. */
+  .container h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .services-small .card {
+    width: 30rem !important;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    display: block;
+  }
+  .services-lg {
+    display: none;
+  }
+
 }
 /* for desktop screen.*/
 @media only screen and (min-width: 768px){
   .banner {
-    background-image: linear-gradient(to top, rgba(245, 246, 252, 0.20), rgba(15, 6, 13, 0.85)),url("https://res.cloudinary.com/rokuirie/image/upload/v1634049623/rxx/banner_rzgrjs.jpg");
+    background-image: linear-gradient(to top, rgba(245, 246, 252, 0.20), rgba(0, 0, 0, 0.85)),url("https://res.cloudinary.com/rokuirie/image/upload/v1634055651/rxx/banner-final_1_gchg2f.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 92vh;
@@ -58,33 +118,27 @@ body {
     padding: 0.5rem 1rem;
     border-radius: 5px;
   }
-
-}
-/* mobile screen */
-@media (max-width: 599px) {
-  /* banner section. */
-  .banner {
-    background-image: linear-gradient(to top, rgba(245, 246, 252, 0.20), rgba(15, 6, 13, 0.85)),url("https://res.cloudinary.com/rokuirie/image/upload/v1634052147/rxx/banner-mobile_1_tognk3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 90vh;
-    color: whitesmoke;
+  .contact-btn:hover {
+    border: 2px solid whitesmoke;
   }
-  .banner-heading {
+  /* services section. */
+  .services-small {
+    display: none;
+  }
+  .container h1 {
     text-align: center;
-    padding: 12rem 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
   }
-  .banner-heading h1 {
-    font-weight: bold;
+  .services-lg {
+    display: block;
+    height: 100vh;
   }
-  .banner-heading h3 {
-    font-weight: 580;
+  .services-lg .card-group .card {
+    margin-right: 1rem;
+    border: 2px solid rgb(199, 198, 198);
+    border-radius: 3px;
   }
-  .contact-btn {
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-  }
-  /* services offered. */
 
 }
