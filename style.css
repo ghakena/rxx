@@ -8,3 +8,29 @@ body {
 #navbarNav ul li a:hover {
   cursor: pointer !important;
 }
+@media only screen and (min-width: 768px){
+  /* for desktop */
+  .banner {
+    background-image: linear-gradient(to top, rgba(245, 246, 252, 0.20), rgba(15, 6, 13, 0.85)),url("https://res.cloudinary.com/rokuirie/image/upload/v1634049623/rxx/banner_rzgrjs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+    color: whitesmoke;
+  }
+  .banner-heading {
+    text-align: center;
+    padding: 15rem 10rem;
+  }
+  .banner-heading h1 {
+    font-weight: bold;
+  }
+  .banner-heading h3 {
+    font-weight: 580;
+  }
+  .contact-btn {
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+
+}
