@@ -62,6 +62,7 @@ body {
 }
 /* mobile screen */
 @media (max-width: 599px) {
+  /* banner section. */
   .banner {
     background-image: linear-gradient(to top, rgba(245, 246, 252, 0.20), rgba(15, 6, 13, 0.85)),url("https://res.cloudinary.com/rokuirie/image/upload/v1634052147/rxx/banner-mobile_1_tognk3.jpg");
     background-repeat: no-repeat;
@@ -84,5 +85,6 @@ body {
     padding: 0.5rem 1rem;
     border-radius: 5px;
   }
+  /* services offered. */
 
 }
