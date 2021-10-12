@@ -36,21 +36,12 @@ body {
     border-radius: 5px;
   }
   /* services offered. */
-  .services-small {
-    padding: 1rem;
-  }
-  .services-small .card {
-    margin-top: 1rem;
-  }
-  .services-small h1 {
+  #services h1 {
     text-align: center;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     margin-bottom: 0.5rem;
   }
-  .services.lg {
-    display: none;
-  }
-
+  
 }
 /* tablet screen */
 @media only screen and (min-width: 600px) {
@@ -83,14 +74,8 @@ body {
     margin-top: 2rem;
     margin-bottom: 0.5rem;
   }
-  .services-small .card {
-    width: 30rem !important;
-    margin-top: 2rem;
-    margin-left: 1rem;
-    display: block;
-  }
   .services-lg {
-    display: none;
+    display: block;
   }
 
 }
@@ -132,7 +117,6 @@ body {
 
   }
   .services-lg {
-    display: block;
     height: 100vh;
   }
   .services-lg .card-group .card {
