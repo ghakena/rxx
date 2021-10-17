@@ -12,6 +12,10 @@ h1 {
   text-align: center;
   text
 }
+.navbar-nav .nav-item .nav-link {
+  /* font-size: 1.1rem; */
+  /* font-family: 'Padauk', sans-serif !important; */
+}
 
 /* mobile screen */
 @media (max-width: 599px) {
